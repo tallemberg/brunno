@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://brunno-teste.vercel.app/1/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Coroado de Pai Fernando"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Manuela Silveira"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "2022"
+                ]
+            }
+        }
+    ],
+    "rights": "https://rightsstatements.org/page/CNE/1.0/",
+    "thumbnail": [
+        {
+            "id": "https://brunno-teste.vercel.app/1/3ff92360292332bc47c7d65fe66f5c42/full/300,200/0/default.jpeg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 200,
+            "width": 300
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Object homepage"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "https://brunno-teste.vercel.app/1/canvas/0",
+            "type": "Canvas",
+            "height": 853,
+            "width": 1280,
+            "items": [
+                {
+                    "id": "https://brunno-teste.vercel.app/1/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://brunno-teste.vercel.app/1/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://brunno-teste.vercel.app/1/canvas/0",
+                            "body": {
+                                "id": "https://brunno-teste.vercel.app/1/3ff92360292332bc47c7d65fe66f5c42/full/2000,1333/0/default.jpeg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1333,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "https://brunno-teste.vercel.app/1/3ff92360292332bc47c7d65fe66f5c42",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

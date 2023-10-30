@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://brunno-teste.vercel.app/index.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "Brunno Teste"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "https://brunno-teste.vercel.app/1/3ff92360292332bc47c7d65fe66f5c42/full/300,200/0/default.jpeg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 200,
+            "width": 300
+        }
+    ],
+    "items": [
+        {
+            "id": "https://brunno-teste.vercel.app/1/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Coroado de Pai Fernando"
+                ]
+            }
+        },
+        {
+            "id": "https://brunno-teste.vercel.app/5/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Zé do Morro e Dona Menina"
+                ]
+            }
+        },
+        {
+            "id": "https://brunno-teste.vercel.app/2/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Entrega presente para Iemanjá"
+                ]
+            }
+        },
+        {
+            "id": "https://brunno-teste.vercel.app/3/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Detalhe do Gongá da Festa de Obaluaê"
+                ]
+            }
+        },
+        {
+            "id": "https://brunno-teste.vercel.app/4/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Procisão para Obaluaê"
+                ]
+            }
+        }
+    ]
+}

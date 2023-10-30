@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://brunno-teste.vercel.app/2/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Entrega presente para Iemanjá"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Manuela Silveira"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Dezembro de 2021"
+                ]
+            }
+        }
+    ],
+    "rights": "https://rightsstatements.org/page/CNE/1.0/",
+    "thumbnail": [
+        {
+            "id": "https://brunno-teste.vercel.app/2/f50c72098b691fa0d28977706e908541/full/300,300/0/default.jpeg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 300
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Object homepage"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "https://brunno-teste.vercel.app/2/canvas/0",
+            "type": "Canvas",
+            "height": 720,
+            "width": 720,
+            "items": [
+                {
+                    "id": "https://brunno-teste.vercel.app/2/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://brunno-teste.vercel.app/2/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://brunno-teste.vercel.app/2/canvas/0",
+                            "body": {
+                                "id": "https://brunno-teste.vercel.app/2/f50c72098b691fa0d28977706e908541/full/2000,2000/0/default.jpeg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2000,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "https://brunno-teste.vercel.app/2/f50c72098b691fa0d28977706e908541",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

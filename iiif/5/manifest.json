@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://brunno-teste.vercel.app/5/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Zé do Morro e Dona Menina"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Desconhecido"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "2018"
+                ]
+            }
+        }
+    ],
+    "rights": "https://rightsstatements.org/page/CNE/1.0/",
+    "thumbnail": [
+        {
+            "id": "https://brunno-teste.vercel.app/5/64a05752aea8002dbcb2ed26419c4d89/full/225,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 225
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Object homepage"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "https://brunno-teste.vercel.app/5/canvas/0",
+            "type": "Canvas",
+            "height": 960,
+            "width": 720,
+            "items": [
+                {
+                    "id": "https://brunno-teste.vercel.app/5/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://brunno-teste.vercel.app/5/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://brunno-teste.vercel.app/5/canvas/0",
+                            "body": {
+                                "id": "https://brunno-teste.vercel.app/5/64a05752aea8002dbcb2ed26419c4d89/full/1500,2000/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2000,
+                                "width": 1500,
+                                "service": [
+                                    {
+                                        "id": "https://brunno-teste.vercel.app/5/64a05752aea8002dbcb2ed26419c4d89",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

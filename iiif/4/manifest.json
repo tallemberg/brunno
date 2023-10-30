@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://brunno-teste.vercel.app/4/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Procisão para Obaluaê"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Marcelo Silveira"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Dezembro de 2021"
+                ]
+            }
+        }
+    ],
+    "rights": "https://rightsstatements.org/page/CNE/1.0/",
+    "thumbnail": [
+        {
+            "id": "https://brunno-teste.vercel.app/4/69b90136c57b417cadb798c0482ed964/full/300,225/0/default.jpeg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 225,
+            "width": 300
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Object homepage"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "https://brunno-teste.vercel.app/4/canvas/0",
+            "type": "Canvas",
+            "height": 958,
+            "width": 1280,
+            "items": [
+                {
+                    "id": "https://brunno-teste.vercel.app/4/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://brunno-teste.vercel.app/4/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://brunno-teste.vercel.app/4/canvas/0",
+                            "body": {
+                                "id": "https://brunno-teste.vercel.app/4/69b90136c57b417cadb798c0482ed964/full/2000,1497/0/default.jpeg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1497,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "https://brunno-teste.vercel.app/4/69b90136c57b417cadb798c0482ed964",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
